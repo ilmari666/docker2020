@@ -1,0 +1,24 @@
+docker run -it --rm -d --name bash devopsdockeruh/exec_bash_exercise
+6c018411b3aff655edf6b0c0cd63350885d7cb5debf226f944a1206a69928bfc
+docker exec -it bash bash
+root@6c018411b3af:/usr/app# tail -f logs.txt
+Thu, 17 Dec 2020 20:13:09 GMT
+Secret message is:
+"Docker is easy"
+Thu, 17 Dec 2020 20:13:15 GMT
+Thu, 17 Dec 2020 20:13:18 GMT
+Thu, 17 Dec 2020 20:13:21 GMT
+Thu, 17 Dec 2020 20:13:24 GMT
+Secret message is:
+"Docker is easy"
+Thu, 17 Dec 2020 20:13:30 GMT
+Thu, 17 Dec 2020 20:13:33 GMT
+Thu, 17 Dec 2020 20:13:36 GMT
+Thu, 17 Dec 2020 20:13:39 GMT
+Secret message is:
+"Docker is easy"
+^C
+root@6c018411b3af:/usr/app# ls
+Dockerfile  README.md  index.js  logs.txt
+root@6c018411b3af:/usr/app# exit 
+exit

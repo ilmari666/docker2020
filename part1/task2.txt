@@ -1,0 +1,11 @@
+CONTAINER ID   IMAGE                          COMMAND                  CREATED       STATUS                   PORTS     NAMES
+64e3571e5113   devopsdockeruh/pull_exercise   "node index.js"          2 hours ago   Exited (0) 2 hours ago             sharp_bouman
+9b1b19ced89e   hello-world                    "/hello"                 2 hours ago   Exited (0) 2 hours ago             infallible_babbage
+a167f139b344   nginx                          "/docker-entrypoint.…"   2 hours ago   Exited (0) 2 hours ago             elegant_chandrasekhar
+791168a37202   nginx                          "/docker-entrypoint.…"   2 hours ago   Exited (0) 2 hours ago             quizzical_swirles
+878b22dc2bfc   hello-world                    "/hello"                 2 hours ago   Exited (0) 2 hours ago             eloquent_lehmann
+0c5c17e5f244   hello-world                    "/hello"                 2 hours ago   Exited (0) 2 hours ago             friendly_shamir
+REPOSITORY                     TAG       IMAGE ID       CREATED         SIZE
+nginx                          latest    ae2feff98a0c   43 hours ago    133MB
+hello-world                    latest    bf756fb1ae65   11 months ago   13.3kB
+devopsdockeruh/pull_exercise   latest    d9854bc0e13a   21 months ago   75.3MB
