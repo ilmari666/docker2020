@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  frontend:
+    build: ./frontend
+    ports: 
+      - 5000:5000
+  backend:
+    build: ./backend
+    volumes:
+        - ./logs.txt:/usr/src/app/backend-example-docker-master/logs.txt
+    ports:
+      - 8000:8000
+
+  
